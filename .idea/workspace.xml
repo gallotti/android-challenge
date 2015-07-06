@@ -6,9 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3b0000-494c-40bc-8b56-5f518b3210bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-    </list>
+    <list default="true" id="8a3b0000-494c-40bc-8b56-5f518b3210bd" name="Default" comment="" />
     <ignored path="DesafioAndroid.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -2358,7 +2356,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="58" width="1260" height="944" extended-state="1" />
+    <frame x="16" y="58" width="1260" height="944" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
