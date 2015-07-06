@@ -11,9 +11,11 @@ import android.text.Html;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import br.com.gallotti.desafioandroid.bean.Foto;
 import br.com.gallotti.desafioandroid.util.ParseJson;
@@ -76,14 +78,13 @@ public class FotoDetalhesActivity extends ActionBarActivity{
 		
 		 aq = new AQuery(this);    
 		
-		aq.id(img).progress(this).image(Util.formatarURLImagem(foto, 'z'), true, true, 0, 0, new BitmapAjaxCallback(){
+		aq.id(img).image(Util.formatarURLImagem(foto, 'z'), true, true, 0, 0, new BitmapAjaxCallback(){
 
             @Override
             public void callback(String url, ImageView iv, Bitmap bm, AjaxStatus status){
             	
                 bitMap = bm;
                 img.setImageBitmap(bitMap);
-
             }
 
     });

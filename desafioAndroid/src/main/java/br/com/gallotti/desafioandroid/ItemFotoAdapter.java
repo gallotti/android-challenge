@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import br.com.gallotti.desafioandroid.bean.Foto;
 import br.com.gallotti.desafioandroid.util.Util;
@@ -34,10 +35,10 @@ public class ItemFotoAdapter extends ArrayAdapter<Foto> {
     		LayoutInflater inflater = (LayoutInflater) context
     	        .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     	    View rowView = inflater.inflate(R.layout.item_foto, parent, false);
-    	    
+			ProgressBar progress = (ProgressBar)rowView.findViewById(R.id.progress);
     	    //Lib Android - Query
     	    AQuery aq = new AQuery(rowView);    
-    	    aq.id(R.id.imgItem).image(Util.formatarURLImagem(this.listFoto.get(position), 'm'),true,true);
+    	    aq.id(R.id.imgItem).progress(progress).image(Util.formatarURLImagem(this.listFoto.get(position), 'm'), true, true);
     	    
     	    TextView txtAutor = (TextView) rowView.findViewById(R.id.txtAutor);
     	    txtAutor.setText(this.listFoto.get(position).getAutor().getNome());
