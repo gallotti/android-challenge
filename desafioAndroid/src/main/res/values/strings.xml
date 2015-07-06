@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DesafioAndroid</string>
+
+    <string name="api_key">1a98f09d57d04f7bd38219782dfc9f8a</string>
+    <string name="comentarios">Comentários : </string>
+    <string name="visualizacoes">Visualizações : </string>
+    
+    <string name="url">https://api.flickr.com/services/rest/</string>
+    
+    
+</resources>
+ 
