@@ -5,8 +5,8 @@ import java.io.Serializable;
 @SuppressWarnings("serial") 
 public class Comentario implements Serializable{
 
-	String nomeAutor;
-	String msg;
+	private String nomeAutor;
+	private String msg;
 	
 	public String getNomeAutor() {
 		return nomeAutor;

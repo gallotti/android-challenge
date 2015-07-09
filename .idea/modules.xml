@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DesafioAndroid.iml" filepath="$PROJECT_DIR$/DesafioAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/cardview/cardview.iml" filepath="$PROJECT_DIR$/cardview/cardview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardview/cardview.iml" filepath="$PROJECT_DIR$/cardview/cardview.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafioAndroid/desafioAndroid.iml" filepath="$PROJECT_DIR$/desafioAndroid/desafioAndroid.iml" />
     </modules>
   </component>

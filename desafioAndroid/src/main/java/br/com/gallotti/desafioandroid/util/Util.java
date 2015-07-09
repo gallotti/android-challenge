@@ -18,11 +18,26 @@ import br.com.gallotti.desafioandroid.bean.Foto;
 
 public class Util {
 
+	/**
+	 *
+	 * Retorna a url formatada da imagem de acordo a API
+	 *
+	 * @param foto
+	 * @param size
+	 * @return
+	 */
 	public static String formatarURLImagem(Foto foto, char size){
 		return "https://farm"+foto.getFarm()+".staticflickr.com/"+foto.getServer()+"/"+foto.getId()+"_"+foto.getSecret()+"_"+size+".jpg";
 	}
 
-
+	/**
+	 *
+	 * Retornar a URI de determinada imagem
+	 *
+	 * @param inImage
+	 * @param context
+	 * @return Uri
+	 */
 	public static Uri getImageUri(Bitmap inImage,Context context) {
 		ByteArrayOutputStream bytes = new ByteArrayOutputStream();
 		inImage.compress(Bitmap.CompressFormat.PNG, 100, bytes);

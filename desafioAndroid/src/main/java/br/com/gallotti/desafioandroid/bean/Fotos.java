@@ -5,7 +5,7 @@ import java.util.List;
 public class Fotos {
 
     private int page;
-    protected int pages;
+    private int pages;
     private int perpage;
     private int total;
     private List<Foto> listFoto;
