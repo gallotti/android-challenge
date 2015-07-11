@@ -3,12 +3,28 @@
 
     <string name="app_name">DesafioAndroid</string>
 
+    <!-- Chave da API -->
     <string name="api_key">1a98f09d57d04f7bd38219782dfc9f8a</string>
-    <string name="comentarios">Comentários : </string>
-    <string name="visualizacoes">Visualizações : </string>
-    
+    <string name="comments">Comentários: </string>
+    <string name="views">Visualizações : </string>
+
+    <!-- URLS -->
     <string name="url">https://api.flickr.com/services/rest/</string>
-    
-    
+
+    <!-- Keys -->
+    <string name="key_photo">foto</string>
+    <string name="key_photos">fotos</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <!-- Metodos API -->
+    <string name="method_list_recent">flickr.photos.getRecent</string>
+    <string name="method_info_user">flickr.people.getInfo</string>
+    <string name="method_list_comments">flickr.photos.comments.getList</string>
+
+    <!--  Error -->
+    <string name="errorServer">Problema ao acessar o servidor. Verifique sua conexão e tente novamente.</string>
+
+    <string name="title_att">Atenção</string>
+    <string name="ok">Ok</string>
 </resources>
  

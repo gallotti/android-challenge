@@ -1424,6 +1424,7 @@ containing a value of this type.
         public static final int share=0x7f020038;
     }
     public static final class id {
+        public static final int action_atualizar=0x7f0b0050;
         public static final int action_bar=0x7f0b0031;
         public static final int action_bar_activity_content=0x7f0b0000;
         public static final int action_bar_container=0x7f0b0030;
@@ -1437,11 +1438,10 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0b002e;
         public static final int action_mode_bar_stub=0x7f0b002d;
         public static final int action_mode_close_button=0x7f0b0020;
-        public static final int action_share=0x7f0b004e;
+        public static final int action_share=0x7f0b004f;
         public static final int activity_chooser_view_content=0x7f0b0021;
         public static final int always=0x7f0b0016;
         public static final int beginning=0x7f0b0013;
-        public static final int btnMais=0x7f0b004a;
         public static final int card_view=0x7f0b0042;
         public static final int checkbox=0x7f0b0029;
         public static final int collapseActionView=0x7f0b0017;
@@ -1459,23 +1459,23 @@ containing a value of this type.
         public static final int icon=0x7f0b0026;
         public static final int ifRoom=0x7f0b0018;
         public static final int image=0x7f0b0023;
-        public static final int img=0x7f0b0043;
-        public static final int imgItem=0x7f0b004b;
+        public static final int img=0x7f0b0044;
+        public static final int imgItem=0x7f0b004a;
         public static final int imgUsuario=0x7f0b003f;
         public static final int listMode=0x7f0b0009;
         public static final int listView=0x7f0b0049;
-        public static final int listViewComentarios=0x7f0b0047;
+        public static final int listViewComentarios=0x7f0b0048;
         public static final int list_item=0x7f0b0025;
-        public static final int menu=0x7f0b004d;
+        public static final int menu=0x7f0b004e;
         public static final int middle=0x7f0b0015;
         public static final int never=0x7f0b0019;
         public static final int none=0x7f0b000e;
         public static final int normal=0x7f0b000a;
-        public static final int progress=0x7f0b004c;
+        public static final int progress=0x7f0b004b;
+        public static final int progressBar=0x7f0b0043;
         public static final int progress_circular=0x7f0b0005;
         public static final int progress_horizontal=0x7f0b0006;
         public static final int radio=0x7f0b002b;
-        public static final int scroll=0x7f0b0048;
         public static final int search_badge=0x7f0b0035;
         public static final int search_bar=0x7f0b0034;
         public static final int search_button=0x7f0b0036;
@@ -1495,10 +1495,12 @@ containing a value of this type.
         public static final int tabMode=0x7f0b000b;
         public static final int title=0x7f0b0027;
         public static final int txtAutor=0x7f0b0040;
-        public static final int txtDesc=0x7f0b0044;
-        public static final int txtQtdComentarios=0x7f0b0045;
-        public static final int txtQtdVisualizacoes=0x7f0b0046;
+        public static final int txtAutorItem=0x7f0b004d;
+        public static final int txtDesc=0x7f0b0045;
+        public static final int txtQtdComentarios=0x7f0b0046;
+        public static final int txtQtdVisualizacoes=0x7f0b0047;
         public static final int txtTitulo=0x7f0b0041;
+        public static final int txtTituloItem=0x7f0b004c;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b0012;
         public static final int withText=0x7f0b001a;
@@ -1533,11 +1535,13 @@ containing a value of this type.
         public static final int abc_simple_dropdown_hint=0x7f030016;
         public static final int activity_foto_detalhes=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int item_foto=0x7f030019;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+        public static final int activity_splash=0x7f030019;
+        public static final int item_foto=0x7f03001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
+        public static final int menu_list=0x7f0c0001;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f050000;
@@ -1558,9 +1562,18 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f05000f;
         public static final int api_key=0x7f050010;
         public static final int app_name=0x7f050011;
-        public static final int comentarios=0x7f050012;
-        public static final int url=0x7f050013;
-        public static final int visualizacoes=0x7f050014;
+        public static final int comments=0x7f050012;
+        public static final int errorServer=0x7f050013;
+        public static final int key_photo=0x7f050014;
+        public static final int key_photos=0x7f050015;
+        public static final int method_info_user=0x7f050016;
+        public static final int method_list_comments=0x7f050017;
+        public static final int method_list_recent=0x7f050018;
+        public static final int ok=0x7f050019;
+        public static final int title_activity_splash=0x7f05001a;
+        public static final int title_att=0x7f05001b;
+        public static final int url=0x7f05001c;
+        public static final int views=0x7f05001d;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

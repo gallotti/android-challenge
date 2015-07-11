@@ -1,8 +1,10 @@
 package br.com.gallotti.desafioandroid.bean;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Fotos {
+@SuppressWarnings("serial")
+public class Fotos implements Serializable{
 
     private int page;
     private int pages;

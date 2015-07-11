@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.gallotti.desafioandroid"
+    android:id="@+id/menu">
+
+    <item android:id="@+id/action_atualizar"
+        android:icon="@drawable/down"
+        android:title="Compartilhar"
+        app:showAsAction="always"
+        android:orderInCategory="150"
+        />
+
+</menu>
+<!-- From: file:/C:/Users/bruno/StudioProjects/DesafioAndroid/desafioAndroid/src/main/res/menu/menu_list.xml -->

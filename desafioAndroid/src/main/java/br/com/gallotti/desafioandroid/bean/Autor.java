@@ -11,6 +11,7 @@ public class Autor implements Serializable{
 	private String iconFarm;
 	private String nsid;
 
+	
 	public String getId() {
 		return id;
 	}

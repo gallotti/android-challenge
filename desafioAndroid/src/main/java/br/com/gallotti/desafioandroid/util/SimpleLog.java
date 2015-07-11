@@ -1,7 +1,13 @@
 package br.com.gallotti.desafioandroid.util;
 
-/**
- * Created by bruno on 09/07/2015.
- */
-public class SimpleLog {
+import android.util.Log;
+
+public class SimpleLog{
+
+    private static String LOG = "DesafioAndroid";
+
+    public static void write(String text){
+        Log.d(LOG, text);
+    }
+
 }

@@ -5,6 +5,9 @@ import org.json.JSONObject;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewTreeObserver.OnScrollChangedListener;
 import android.widget.AdapterView;
@@ -13,6 +16,8 @@ import android.widget.ScrollView;
 import br.com.gallotti.desafioandroid.bean.Foto;
 import br.com.gallotti.desafioandroid.bean.Fotos;
 import br.com.gallotti.desafioandroid.util.ParseJson;
+import br.com.gallotti.desafioandroid.util.SimpleLog;
+import br.com.gallotti.desafioandroid.util.Util;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -31,18 +36,24 @@ public class MainActivity extends ActionBarActivity {
 
 	@ViewById
 	protected ListView listView;
-	@ViewById
-	protected ScrollView scroll;
+
 	private RequestQueue  mRequestQueue;
 	private ItemFotoAdapter adapter;
 	private Fotos fotos;
-	int count;
+	int count = 1;
 
 	@AfterViews
 	public void inicializar(){
 		mRequestQueue = Volley.newRequestQueue(this);
-		getListFotosRecentes();
 
+		Intent i = getIntent();
+		fotos = (Fotos)i.getSerializableExtra(getText(R.string.key_photos).toString());
+
+			if (fotos!=null){
+				createListView();
+			} else {
+				Util.dialogErrorNet(MainActivity.this);
+			}
 	}
 
 	/**
@@ -54,15 +65,15 @@ public class MainActivity extends ActionBarActivity {
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
-					int position, long id) {
-				Foto foto = (Foto)view.getTag();
+									int position, long id) {
+				Foto foto = ((ItemFotoAdapter.ViewHolderItem)view.getTag()).foto;
 				Intent i = new Intent(MainActivity.this, FotoDetalhesActivity_	.class);
 				i.putExtra("foto", foto);
 				startActivity(i);
 			}
 		});
 		adapter = new ItemFotoAdapter(MainActivity.this, android.R.layout.simple_list_item_1, fotos.getListFoto());
-		
+
 		listView.setAdapter(adapter);
 	}
 
@@ -70,10 +81,9 @@ public class MainActivity extends ActionBarActivity {
 	 * Metodo responsavel por consumir o Web Service da lista recentes de fotos
 	 * Primeiro chama 10 fotos, depois x*10 
 	 */
-	@Click({R.id.btnMais})
-	public  void getListFotosRecentes(){
+	private void getListFotosRecentes(){
 		count++;
-		String url = getText(R.string.url)+"?method=flickr.photos.getRecent&api_key="+getText(R.string.api_key)+"&extras=description%2Cowner_name%2Cviews&per_page="+count*10+"&page=1&format=json&nojsoncallback=1";
+		String url = getText(R.string.url)+"?method="+getText(R.string.method_list_recent)+"&api_key="+getText(R.string.api_key)+"&extras=description%2Cowner_name%2Cviews&per_page="+count*10+"&page=1&format=json&nojsoncallback=1";
 
 		JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET,url,null,
 				new Response.Listener<JSONObject>() {
@@ -83,13 +93,15 @@ public class MainActivity extends ActionBarActivity {
 				ParseJson parse = new ParseJson();
 				fotos = parse.parseFotos(response);
 
-				createListView();
+					createListView();
+
 			}
 
 		}, new Response.ErrorListener() {
 			@Override
 			public void onErrorResponse(VolleyError error) {
-				VolleyLog.e("Desafio", "Error: " + error.getMessage());
+				SimpleLog.write("Error: " + error.getMessage());
+				Util.dialogErrorNet(MainActivity.this);
 
 			}
 		});
@@ -97,6 +109,29 @@ public class MainActivity extends ActionBarActivity {
 
 		mRequestQueue.add(req);
 
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menu_list, menu);
+		return super.onCreateOptionsMenu(menu);
+
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+
+
+		switch(item.getItemId()) {
+
+			case R.id.action_atualizar:
+				getListFotosRecentes();
+				return super.onOptionsItemSelected(item);
+
+			default:
+				return super.onOptionsItemSelected(item);
+		}
 	}
 
 }

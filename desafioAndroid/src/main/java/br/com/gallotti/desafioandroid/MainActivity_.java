@@ -36,22 +36,6 @@ public final class MainActivity_
 
     private void afterSetContentView_() {
         listView = ((ListView) findViewById(id.listView));
-        scroll = ((ScrollView) findViewById(id.scroll));
-        {
-            View view = findViewById(id.btnMais);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.getListFotosRecentes();
-                    }
-
-                }
-                );
-            }
-        }
         inicializar();
     }
 

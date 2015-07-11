@@ -2,27 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\libs\volley.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\volley-279a4216b6987e565fa089d803775757b39e3518.jar" />
-    </item>
-    <item
-        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\libs\androidannotations-api-2.7.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ed4c312fc34395ecf47e1173e60f30ef5e5f677">
-        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\androidannotations-api-2.7-d14a6058e31aa7289d9cabb83da475161378a0f1.jar" />
-    </item>
-    <item
-        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\libs\android-query-full.0.26.7.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4055bed8ed6f6aa573fa3e7d979c66101c48e182">
-        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\android-query-full.0.26.7-43caeb1684d1ccd03f9080768e35ec458495b002.jar" />
-    </item>
-    <item
         jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -30,18 +9,18 @@
         <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\classes-b7249d5dd66297254e337116768ca9f4905f6fd2.jar" />
     </item>
     <item
-        jar="C:\Users\bruno\android-sdks\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\libs\volley.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-11558ac8ef0334cbd7d217aecdbf19f763c4ba7b.jar" />
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\volley-279a4216b6987e565fa089d803775757b39e3518.jar" />
     </item>
     <item
-        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\jars\classes.jar"
+        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="22886d910315028a2b34b1ba068c265534ade87a">
-        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\classes-8e9210cc813fdccb2cd276b6acb92ebe78a030c2.jar" />
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-97e69937dea7eb306c74cbff77f8f09e88d1c31b.jar" />
     </item>
     <item
         jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
@@ -51,11 +30,32 @@
         <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\classes-6df03d4df8f8365ab5feacf6ef8f070af5c34d0e.jar" />
     </item>
     <item
-        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\libs\android-query-full.0.26.7.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-97e69937dea7eb306c74cbff77f8f09e88d1c31b.jar" />
+        sha1="4055bed8ed6f6aa573fa3e7d979c66101c48e182">
+        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\android-query-full.0.26.7-43caeb1684d1ccd03f9080768e35ec458495b002.jar" />
+    </item>
+    <item
+        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\classes-8e9210cc813fdccb2cd276b6acb92ebe78a030c2.jar" />
+    </item>
+    <item
+        jar="C:\Users\bruno\android-sdks\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-11558ac8ef0334cbd7d217aecdbf19f763c4ba7b.jar" />
+    </item>
+    <item
+        jar="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\libs\androidannotations-api-2.7.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ed4c312fc34395ecf47e1173e60f30ef5e5f677">
+        <dex dex="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\pre-dexed\debug\androidannotations-api-2.7-d14a6058e31aa7289d9cabb83da475161378a0f1.jar" />
     </item>
 
 </items>

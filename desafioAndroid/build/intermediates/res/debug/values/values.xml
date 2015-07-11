@@ -29,7 +29,7 @@
     <color name="background_material_light">#ffeeeeee</color>
     <!-- From: file:/C:/Users/bruno/StudioProjects/DesafioAndroid/desafioAndroid/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="bck">#546E7A</color>
+    <color name="bck">#E3F2FD</color>
     <!-- From: file:/C:/Users/bruno/StudioProjects/DesafioAndroid/desafioAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
@@ -80,7 +80,7 @@
     <!-- From: file:/C:/Users/bruno/StudioProjects/DesafioAndroid/desafioAndroid/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="status_bar">#0288D1</color>
-    <color name="subactionbar">#F44336</color>
+    <color name="subactionbar">#81D4FA</color>
     <!-- From: file:/C:/Users/bruno/StudioProjects/DesafioAndroid/desafioAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -198,9 +198,18 @@
     <eat-comment/>
     <string name="api_key">1a98f09d57d04f7bd38219782dfc9f8a</string>
     <string name="app_name">DesafioAndroid</string>
-    <string name="comentarios">Comentários : </string>
+    <string name="comments">Comentários: </string>
+    <string name="errorServer">Problema ao acessar o servidor. Verifique sua conexão e tente novamente.</string>
+    <string name="key_photo">foto</string>
+    <string name="key_photos">fotos</string>
+    <string name="method_info_user">flickr.people.getInfo</string>
+    <string name="method_list_comments">flickr.photos.comments.getList</string>
+    <string name="method_list_recent">flickr.photos.getRecent</string>
+    <string name="ok">Ok</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_att">Atenção</string>
     <string name="url">https://api.flickr.com/services/rest/</string>
-    <string name="visualizacoes">Visualizações : </string>
+    <string name="views">Visualizações : </string>
     <!-- From: file:/C:/Users/bruno/StudioProjects/DesafioAndroid/desafioAndroid/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
