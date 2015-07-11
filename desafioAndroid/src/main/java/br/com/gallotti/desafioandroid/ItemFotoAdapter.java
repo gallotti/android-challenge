@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import br.com.gallotti.desafioandroid.bean.Foto;
+import br.com.gallotti.desafioandroid.util.SimpleLog;
 import br.com.gallotti.desafioandroid.util.Util;
 import com.androidquery.AQuery;
 import com.androidquery.callback.AjaxStatus;
@@ -46,32 +47,36 @@ public class ItemFotoAdapter extends ArrayAdapter<Foto> {
 			viewHolder = new ViewHolderItem();
 
 			viewHolder.textViewAutor = (TextView) convertView.findViewById(R.id.txtAutorItem);
-			viewHolder.textViewAutor.setText(this.listFoto.get(position).getAutor().getNome());
+
 
 			viewHolder.textViewTitulo = (TextView) convertView.findViewById(R.id.txtTituloItem);
-			viewHolder.textViewTitulo.setText(this.listFoto.get(position).getTitle());
+
 
 			viewHolder.progressView = (ProgressBar)convertView.findViewById(R.id.progress);
 			viewHolder.imgView = (ImageView)convertView.findViewById(R.id.imgItem);
 
 			//Lib Android - Query
-			AQuery aq = new AQuery(convertView);
-			aq.id(viewHolder.imgView).progress(viewHolder.progressView).image(Util.formatarURLImagem(this.listFoto.get(position), 'm'), true, true, 0, R.drawable.base_mascara_usuario, new BitmapAjaxCallback() {
 
-				@Override
-				public void callback(String url, ImageView iv, Bitmap bm, AjaxStatus status) {
-
-					viewHolder.imgView.setImageBitmap(Util.getCircularBitmap(bm));
-
-				}
-			});
-
-			viewHolder.foto = listFoto.get(position);
 
 			convertView.setTag(viewHolder);
 		} else {
 			viewHolder = (ViewHolderItem) convertView.getTag();
 		}
+
+		viewHolder.textViewAutor.setText(this.listFoto.get(position).getAutor().getNome());
+		viewHolder.textViewTitulo.setText(this.listFoto.get(position).getTitle());
+		AQuery aq = new AQuery(convertView);
+		aq.id(viewHolder.imgView).progress(viewHolder.progressView).image(Util.formatarURLImagem(this.listFoto.get(position), 'm'), true, true, 0, R.drawable.base_mascara_usuario, new BitmapAjaxCallback() {
+
+			@Override
+			public void callback(String url, ImageView iv, Bitmap bm, AjaxStatus status) {
+
+				viewHolder.imgView.setImageBitmap(Util.getCircularBitmap(bm));
+
+			}
+		});
+
+		viewHolder.foto = listFoto.get(position);
 		return convertView;
 	}
 

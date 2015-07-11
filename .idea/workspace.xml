@@ -6,97 +6,24 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3b0000-494c-40bc-8b56-5f518b3210bd" name="Default" comment="Commit Inicial">
-      <change type="DELETED" beforePath="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\classes\debug\br\com\gallotti\desafioandroid\FotoDetalhesActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\classes\debug\br\com\gallotti\desafioandroid\MainActivity_$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\DesafioAndroid\cardview\unspecified\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\DesafioAndroid\cardview\unspecified\R.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\DesafioAndroid\cardview\unspecified\aapt\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\DesafioAndroid\cardview\unspecified\jars\classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\build\intermediates\exploded-aar\DesafioAndroid\cardview\unspecified\res\values\values.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\bruno\StudioProjects\DesafioAndroid\desafioAndroid\src\main\res\menu\menu_splash.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/menu/menu_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/bean/Autor.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/bean/Autor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/bean/Comentario.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/bean/Comentario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$1.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$2.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$3.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$4.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$5.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity_.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/bean/Fotos.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/bean/Fotos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/ItemFotoAdapter$1.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/ItemFotoAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/ItemFotoAdapter$ViewHolderItem.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/ItemFotoAdapter$ViewHolderItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/ItemFotoAdapter.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/ItemFotoAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity$1.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity$2.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity$3.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity_$IntentBuilder_.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity_$IntentBuilder_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity_.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$id.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$integer.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$layout.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$menu.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$string.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$style.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$styleable.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/util/Util.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/util/Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/android-query-full.0.26.7-43caeb1684d1ccd03f9080768e35ec458495b002.jar" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/android-query-full.0.26.7-43caeb1684d1ccd03f9080768e35ec458495b002.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/androidannotations-api-2.7-d14a6058e31aa7289d9cabb83da475161378a0f1.jar" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/androidannotations-api-2.7-d14a6058e31aa7289d9cabb83da475161378a0f1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/util/ParseJson.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/util/ParseJson.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/classes-6df03d4df8f8365ab5feacf6ef8f070af5c34d0e.jar" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/classes-6df03d4df8f8365ab5feacf6ef8f070af5c34d0e.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/classes-8e9210cc813fdccb2cd276b6acb92ebe78a030c2.jar" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/classes-8e9210cc813fdccb2cd276b6acb92ebe78a030c2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/classes-b7249d5dd66297254e337116768ca9f4905f6fd2.jar" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/classes-b7249d5dd66297254e337116768ca9f4905f6fd2.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/outputs/apk/desafioAndroid-debug-unaligned.apk" afterPath="$PROJECT_DIR$/desafioAndroid/build/outputs/apk/desafioAndroid-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/outputs/apk/desafioAndroid-debug.apk" afterPath="$PROJECT_DIR$/desafioAndroid/build/outputs/apk/desafioAndroid-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/drawable-hdpi/down.png" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/drawable-hdpi/down.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-97e69937dea7eb306c74cbff77f8f09e88d1c31b.jar" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-97e69937dea7eb306c74cbff77f8f09e88d1c31b.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-11558ac8ef0334cbd7d217aecdbf19f763c4ba7b.jar" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-11558ac8ef0334cbd7d217aecdbf19f763c4ba7b.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/volley-279a4216b6987e565fa089d803775757b39e3518.jar" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/pre-dexed/debug/volley-279a4216b6987e565fa089d803775757b39e3518.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/bean/Autor.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/bean/Autor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/bean/Fotos.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/bean/Fotos.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/ItemFotoAdapter.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/ItemFotoAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity_.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/desafioAndroid/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/generated/source/r/debug/br/com/gallotti/desafioandroid/R.java" afterPath="$PROJECT_DIR$/desafioAndroid/build/generated/source/r/debug/br/com/gallotti/desafioandroid/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/SimpleLog.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/SimpleLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/SplashActivity.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/Util.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/activity_foto_detalhes.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/activity_foto_detalhes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/item_foto.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/item_foto.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/item_foto.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/item_foto.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/menu/main.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/desafioAndroid/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/incremental/mergeResources/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/values-v11/styles.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/values-v11/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesafioAndroid.iws" />
@@ -137,11 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FotoDetalhesActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FotoDetalhesActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34893617">
-              <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+            <state vertical-scroll-proportion="-3.16">
+              <caret line="177" column="51" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2134#2161#0" expanded="true" />
@@ -205,26 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_foto_detalhes.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.068966">
-              <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
-              <folding>
-                <element signature="e#4140#4158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ItemFotoAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/ItemFotoAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.48">
-              <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+            <state vertical-scroll-proportion="-5.56">
+              <caret line="62" column="63" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -233,8 +145,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.32">
-              <caret line="68" column="80" selection-start-line="68" selection-start-column="80" selection-end-line="68" selection-end-column="80" />
+            <state vertical-scroll-proportion="4.28">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="e#1645#1673#0" expanded="true" />
                 <element signature="e#1954#2309#0" expanded="true" />
@@ -262,8 +174,18 @@
       <file leaf-file-name="ParseJson.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/ParseJson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+            <state vertical-scroll-proportion="-35.36">
+              <caret line="61" column="42" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3739496">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -1682,17 +1604,17 @@
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/res/menu/menu_list.xml" />
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/desafioAndroid/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml" />
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/SplashActivity.java" />
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/Util.java" />
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/item_foto.xml" />
-        <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/ItemFotoAdapter.java" />
-        <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity.java" />
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/bean/Autor.java" />
-        <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/ParseJson.java" />
         <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java" />
+        <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity.java" />
+        <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/ItemFotoAdapter.java" />
+        <option value="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/ParseJson.java" />
+        <option value="$PROJECT_DIR$/desafioAndroid/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -1991,104 +1913,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesafioAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesafioAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desafioAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desafioandroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesafioAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesafioAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desafioAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desafioandroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesafioAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesafioAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desafioAndroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desafioandroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -2349,7 +2173,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="14" width="1260" height="944" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2363,13 +2187,13 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30583757" sideWeight="0.39333335" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3362944" sideWeight="0.635" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868022" sideWeight="0.635" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23166667" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868022" sideWeight="0.39083335" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2379,6 +2203,35 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3362944" sideWeight="0.365" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868022" sideWeight="0.39083335" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39974618" sideWeight="0.49666667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30583757" sideWeight="0.39333335" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868022" sideWeight="0.635" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23166667" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -2513,7 +2366,7 @@
           <folding>
             <element signature="e#830#848#0" expanded="false" />
             <element signature="e#3052#3070#0" expanded="false" />
-            <element signature="e#4140#4158#0" expanded="true" />
+            <element signature="e#4140#4158#0" expanded="false" />
             <element signature="e#4593#4608#0" expanded="false" />
           </folding>
         </state>
@@ -2596,7 +2449,7 @@
           <folding>
             <element signature="e#830#848#0" expanded="false" />
             <element signature="e#3052#3070#0" expanded="false" />
-            <element signature="e#4140#4158#0" expanded="true" />
+            <element signature="e#4140#4158#0" expanded="false" />
             <element signature="e#4593#4608#0" expanded="false" />
           </folding>
         </state>
@@ -2753,14 +2606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13737373">
@@ -2799,20 +2644,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.6">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.068966">
           <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
           <folding>
-            <element signature="e#4140#4158#0" expanded="true" />
+            <element signature="e#4140#4158#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2859,10 +2696,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/ItemFotoAdapter.java">
+    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.48">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -2877,18 +2714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/ParseJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.32">
-          <caret line="68" column="80" selection-start-line="68" selection-start-column="80" selection-end-line="68" selection-end-column="80" />
+        <state vertical-scroll-proportion="4.28">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="e#1645#1673#0" expanded="true" />
             <element signature="e#1954#2309#0" expanded="true" />
@@ -2900,10 +2729,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/ItemFotoAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.56">
+          <caret line="62" column="63" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34893617">
-          <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+        <state vertical-scroll-proportion="-3.16">
+          <caret line="177" column="51" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2134#2161#0" expanded="true" />
@@ -2916,6 +2753,22 @@
             <element signature="e#4896#4921#0" expanded="true" />
             <element signature="e#5327#5353#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/util/ParseJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-35.36">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3739496">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
