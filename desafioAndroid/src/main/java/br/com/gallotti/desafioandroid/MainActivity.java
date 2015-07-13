@@ -45,7 +45,7 @@ public class MainActivity extends ActionBarActivity {
 	@AfterViews
 	public void inicializar(){
 		mRequestQueue = Volley.newRequestQueue(this);
-
+		getSupportActionBar().setElevation(0);
 		Intent i = getIntent();
 		fotos = (Fotos)i.getSerializableExtra(getText(R.string.key_photos).toString());
 

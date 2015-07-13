@@ -203,7 +203,7 @@
     <eat-comment/>
     <string name="api_key">1a98f09d57d04f7bd38219782dfc9f8a</string>
     <string name="app_name">DesafioAndroid</string>
-    <string name="comments">Comentários:\ </string>
+    <string name="comments">Comentários:</string>
     <string name="errorServer">Problema ao acessar o servidor. Verifique sua conexão e tente novamente.</string>
     <string name="key_photo">foto</string>
     <string name="key_photos">fotos</string>
@@ -214,7 +214,7 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_att">Atenção</string>
     <string name="url">https://api.flickr.com/services/rest/</string>
-    <string name="views">Visualizações:\ </string>
+    <string name="views">Visualizações:</string>
     <!-- From: file:/C:/Users/bruno/StudioProjects/DesafioAndroid/desafioAndroid/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">

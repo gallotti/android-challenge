@@ -8,6 +8,7 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.support.v7.app.ActionBarActivity;
 import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -66,6 +67,7 @@ public class FotoDetalhesActivity extends ActionBarActivity{
 	@AfterViews
 	public void inicializar(){
 
+		getSupportActionBar().setElevation(0);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		mRequestQueue = Volley.newRequestQueue(this);
 
@@ -74,9 +76,15 @@ public class FotoDetalhesActivity extends ActionBarActivity{
 
 		urlAutor = getText(R.string.url)+"?method="+getText(R.string.method_info_user)+"&api_key="+getText(R.string.api_key)+"&user_id="+foto.getAutor().getId()+"&format=json&nojsoncallback=1";
 		txtAutor.setText(foto.getAutor().getNome());
+
 		//Tratando html para inserir no TextView da Descrição e Titulo
 		txtDesc.setText(Html.fromHtml(foto.getDescription()));
 		txtTitulo.setText(Html.fromHtml(foto.getTitle()));
+
+		//Link clicavel e direcionando para a pagina do link
+		txtDesc.setMovementMethod(LinkMovementMethod.getInstance());
+		txtTitulo.setMovementMethod(LinkMovementMethod.getInstance());
+
 		
 		txtQtdVisualizacoes.setText(getText(R.string.views).toString() + foto.getViews());
 		txtQtdComentarios.setText(getText(R.string.comments).toString() + 0);

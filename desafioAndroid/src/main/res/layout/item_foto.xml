@@ -13,8 +13,8 @@
     android:layout_margin="5dp"> -->
 
    <RelativeLayout
-       android:layout_width="72dp"
-       android:layout_height="72dp"
+       android:layout_width="94dp"
+       android:layout_height="94dp"
        android:gravity="center">
 
         <ImageView
@@ -22,8 +22,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/imgItem"
             android:layout_gravity="center"
-            android:layout_margin="5dp"
-            android:layout_marginLeft="16dp"
+            android:layout_margin="16dp"
             android:src="@drawable/base_mascara_usuario" />
 
         <ProgressBar
