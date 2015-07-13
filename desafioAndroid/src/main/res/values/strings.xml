@@ -5,8 +5,8 @@
 
     <!-- Chave da API -->
     <string name="api_key">1a98f09d57d04f7bd38219782dfc9f8a</string>
-    <string name="comments">Comentários: </string>
-    <string name="views">Visualizações : </string>
+    <string name="comments">Comentários:</string>
+    <string name="views">Visualizações:</string>
 
     <!-- URLS -->
     <string name="url">https://api.flickr.com/services/rest/</string>
@@ -14,7 +14,7 @@
     <!-- Keys -->
     <string name="key_photo">foto</string>
     <string name="key_photos">fotos</string>
-    
+
     <string name="title_activity_splash">SplashActivity</string>
 
     <!-- Metodos API -->
