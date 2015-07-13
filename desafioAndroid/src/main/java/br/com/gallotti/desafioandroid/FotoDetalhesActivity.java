@@ -83,7 +83,6 @@ public class FotoDetalhesActivity extends ActionBarActivity{
 
 		//Link clicavel e direcionando para a pagina do link
 		txtDesc.setMovementMethod(LinkMovementMethod.getInstance());
-		txtTitulo.setMovementMethod(LinkMovementMethod.getInstance());
 
 		
 		txtQtdVisualizacoes.setText(getText(R.string.views).toString() + foto.getViews());

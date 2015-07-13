@@ -7,34 +7,11 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3b0000-494c-40bc-8b56-5f518b3210bd" name="Default" comment="Commit Inicial">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$1.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$2.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$3.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$4.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$5.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/FotoDetalhesActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity.class" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/classes/debug/br/com/gallotti/desafioandroid/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/outputs/apk/desafioAndroid-debug-unaligned.apk" afterPath="$PROJECT_DIR$/desafioAndroid/build/outputs/apk/desafioAndroid-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/outputs/apk/desafioAndroid-debug.apk" afterPath="$PROJECT_DIR$/desafioAndroid/build/outputs/apk/desafioAndroid-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity.java" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/activity_foto_detalhes.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/activity_foto_detalhes.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/item_foto.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/layout/item_foto.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/item_foto.xml" afterPath="$PROJECT_DIR$/desafioAndroid/src/main/res/layout/item_foto.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/desafioAndroid/build/intermediates/res/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesafioAndroid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,22 +51,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FotoDetalhesActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FotoDetalhesActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34453782">
-              <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+            <state vertical-scroll-proportion="-9.96">
+              <caret line="84" column="68" selection-start-line="84" selection-start-column="68" selection-end-line="84" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2222#2249#0" expanded="true" />
                 <element signature="e#2310#2344#0" expanded="true" />
-                <element signature="e#2893#2916#0" expanded="true" />
-                <element signature="e#2976#3002#0" expanded="true" />
-                <element signature="e#4614#4746#0" expanded="true" />
-                <element signature="e#4745#4746#0" expanded="true" />
-                <element signature="e#5119#5157#0" expanded="true" />
-                <element signature="e#5170#5195#0" expanded="true" />
-                <element signature="e#5601#5627#0" expanded="true" />
+                <element signature="e#2828#2851#0" expanded="true" />
+                <element signature="e#2911#2937#0" expanded="true" />
+                <element signature="e#4549#4681#0" expanded="true" />
+                <element signature="e#4680#4681#0" expanded="true" />
+                <element signature="e#5054#5092#0" expanded="true" />
+                <element signature="e#5105#5130#0" expanded="true" />
+                <element signature="e#5536#5562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,15 +98,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_foto_detalhes.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_foto_detalhes.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.034483">
-              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.45762712">
+              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
               <folding>
                 <element signature="e#830#848#0" expanded="true" />
-                <element signature="e#4288#4306#0" expanded="true" />
-                <element signature="e#4748#4763#0" expanded="true" />
+                <element signature="e#4249#4267#0" expanded="true" />
+                <element signature="e#4709#4724#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2130,8 +2107,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="11" width="1260" height="944" extended-state="0" />
-    <editor active="false" />
+    <frame x="1" y="11" width="1260" height="944" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2145,14 +2122,14 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30583757" sideWeight="0.39333335" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868022" sideWeight="0.635" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868022" sideWeight="0.635" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23166667" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868022" sideWeight="0.39083335" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868022" sideWeight="0.39083335" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2269,13 +2246,13 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2222#2249#0" expanded="true" />
             <element signature="e#2310#2344#0" expanded="true" />
-            <element signature="e#2893#2916#0" expanded="true" />
-            <element signature="e#2976#3002#0" expanded="true" />
-            <element signature="e#4614#4746#0" expanded="true" />
-            <element signature="e#4745#4746#0" expanded="true" />
-            <element signature="e#5119#5157#0" expanded="true" />
-            <element signature="e#5170#5195#0" expanded="true" />
-            <element signature="e#5601#5627#0" expanded="true" />
+            <element signature="e#2828#2851#0" expanded="true" />
+            <element signature="e#2911#2937#0" expanded="true" />
+            <element signature="e#4549#4681#0" expanded="true" />
+            <element signature="e#4680#4681#0" expanded="true" />
+            <element signature="e#5054#5092#0" expanded="true" />
+            <element signature="e#5105#5130#0" expanded="true" />
+            <element signature="e#5536#5562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2286,9 +2263,9 @@
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="e#830#848#0" expanded="true" />
-            <element signature="e#3091#3109#0" expanded="false" />
-            <element signature="e#4288#4306#0" expanded="true" />
-            <element signature="e#4748#4763#0" expanded="true" />
+            <element signature="e#3052#3070#0" expanded="false" />
+            <element signature="e#4249#4267#0" expanded="true" />
+            <element signature="e#4709#4724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2346,13 +2323,13 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2222#2249#0" expanded="true" />
             <element signature="e#2310#2344#0" expanded="true" />
-            <element signature="e#2893#2916#0" expanded="true" />
-            <element signature="e#2976#3002#0" expanded="true" />
-            <element signature="e#4614#4746#0" expanded="true" />
-            <element signature="e#4745#4746#0" expanded="true" />
-            <element signature="e#5119#5157#0" expanded="true" />
-            <element signature="e#5170#5195#0" expanded="true" />
-            <element signature="e#5601#5627#0" expanded="true" />
+            <element signature="e#2828#2851#0" expanded="true" />
+            <element signature="e#2911#2937#0" expanded="true" />
+            <element signature="e#4549#4681#0" expanded="true" />
+            <element signature="e#4680#4681#0" expanded="true" />
+            <element signature="e#5054#5092#0" expanded="true" />
+            <element signature="e#5105#5130#0" expanded="true" />
+            <element signature="e#5536#5562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2363,9 +2340,9 @@
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="e#830#848#0" expanded="true" />
-            <element signature="e#3091#3109#0" expanded="false" />
-            <element signature="e#4288#4306#0" expanded="true" />
-            <element signature="e#4748#4763#0" expanded="true" />
+            <element signature="e#3052#3070#0" expanded="false" />
+            <element signature="e#4249#4267#0" expanded="true" />
+            <element signature="e#4709#4724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2639,17 +2616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.034483">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/layout/item_foto.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.5172415">
@@ -2669,38 +2635,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml">
+    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.034483">
-          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        <state vertical-scroll-proportion="-9.96">
+          <caret line="84" column="68" selection-start-line="84" selection-start-column="68" selection-end-line="84" selection-end-column="68" />
           <folding>
-            <element signature="e#830#848#0" expanded="true" />
-            <element signature="e#4288#4306#0" expanded="true" />
-            <element signature="e#4748#4763#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2222#2249#0" expanded="true" />
+            <element signature="e#2310#2344#0" expanded="true" />
+            <element signature="e#2828#2851#0" expanded="true" />
+            <element signature="e#2911#2937#0" expanded="true" />
+            <element signature="e#4549#4681#0" expanded="true" />
+            <element signature="e#4680#4681#0" expanded="true" />
+            <element signature="e#5054#5092#0" expanded="true" />
+            <element signature="e#5105#5130#0" expanded="true" />
+            <element signature="e#5536#5562#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.034483">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/java/br/com/gallotti/desafioandroid/FotoDetalhesActivity.java">
+    <entry file="file://$PROJECT_DIR$/desafioAndroid/src/main/res/layout/activity_foto_detalhes.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34453782">
-          <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.45762712">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2222#2249#0" expanded="true" />
-            <element signature="e#2310#2344#0" expanded="true" />
-            <element signature="e#2893#2916#0" expanded="true" />
-            <element signature="e#2976#3002#0" expanded="true" />
-            <element signature="e#4614#4746#0" expanded="true" />
-            <element signature="e#4745#4746#0" expanded="true" />
-            <element signature="e#5119#5157#0" expanded="true" />
-            <element signature="e#5170#5195#0" expanded="true" />
-            <element signature="e#5601#5627#0" expanded="true" />
+            <element signature="e#830#848#0" expanded="true" />
+            <element signature="e#4249#4267#0" expanded="true" />
+            <element signature="e#4709#4724#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
