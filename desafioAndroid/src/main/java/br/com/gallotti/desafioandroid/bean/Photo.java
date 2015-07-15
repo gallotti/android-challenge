@@ -5,7 +5,7 @@ import java.util.List;
 
 
 @SuppressWarnings("serial") 
-public class Foto implements Serializable{
+public class Photo implements Serializable{
 
     private String id;
     private String owner;

@@ -1,18 +1,17 @@
-package br.com.gallotti.desafioandroid;
+package br.com.gallotti.desafioandroid.activity;
 
 import org.json.JSONObject;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewTreeObserver.OnScrollChangedListener;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.ScrollView;
+
+import br.com.gallotti.desafioandroid.R;
 import br.com.gallotti.desafioandroid.bean.Foto;
 import br.com.gallotti.desafioandroid.bean.Fotos;
 import br.com.gallotti.desafioandroid.util.ParseJson;
@@ -23,11 +22,9 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.googlecode.androidannotations.annotations.AfterViews;
-import com.googlecode.androidannotations.annotations.Click;
 import com.googlecode.androidannotations.annotations.EActivity;
 import com.googlecode.androidannotations.annotations.ViewById;
 

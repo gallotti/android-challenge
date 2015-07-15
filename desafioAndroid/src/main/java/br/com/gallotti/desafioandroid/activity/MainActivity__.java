@@ -3,7 +3,7 @@
 //
 
 
-package br.com.gallotti.desafioandroid;
+package br.com.gallotti.desafioandroid.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,15 +12,15 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
+
+import org.androidannotations.api.SdkVersionHelper;
+
 import br.com.gallotti.desafioandroid.R.id;
 import br.com.gallotti.desafioandroid.R.layout;
-import com.googlecode.androidannotations.api.SdkVersionHelper;
 
-public final class FotoDetalhesActivity_
-    extends FotoDetalhesActivity
+public final class MainActivity__
+    extends MainActivity
 {
 
 
@@ -28,21 +28,14 @@ public final class FotoDetalhesActivity_
     public void onCreate(Bundle savedInstanceState) {
         init_(savedInstanceState);
         super.onCreate(savedInstanceState);
-        setContentView(layout.activity_foto_detalhes);
+        setContentView(layout.activity_main);
     }
 
     private void init_(Bundle savedInstanceState) {
     }
 
     private void afterSetContentView_() {
-        txtDesc = ((TextView) findViewById(id.txtDesc));
-        txtTitulo = ((TextView) findViewById(id.txtTitulo));
-        txtAutor = ((TextView) findViewById(id.txtAutor));
         listView = ((ListView) findViewById(id.listView));
-        imgUsuario = ((ImageView) findViewById(id.imgUsuario));
-        img = ((ImageView) findViewById(id.img));
-        txtQtdComentarios = ((TextView) findViewById(id.txtQtdComentarios));
-        txtQtdVisualizacoes = ((TextView) findViewById(id.txtQtdVisualizacoes));
         inicializar();
     }
 
@@ -72,8 +65,8 @@ public final class FotoDetalhesActivity_
         return super.onKeyDown(keyCode, event);
     }
 
-    public static FotoDetalhesActivity_.IntentBuilder_ intent(Context context) {
-        return new FotoDetalhesActivity_.IntentBuilder_(context);
+    public static MainActivity__.IntentBuilder_ intent(Context context) {
+        return new MainActivity__.IntentBuilder_(context);
     }
 
     public static class IntentBuilder_ {
@@ -83,14 +76,14 @@ public final class FotoDetalhesActivity_
 
         public IntentBuilder_(Context context) {
             context_ = context;
-            intent_ = new Intent(context, FotoDetalhesActivity_.class);
+            intent_ = new Intent(context, MainActivity__.class);
         }
 
         public Intent get() {
             return intent_;
         }
 
-        public FotoDetalhesActivity_.IntentBuilder_ flags(int flags) {
+        public MainActivity__.IntentBuilder_ flags(int flags) {
             intent_.setFlags(flags);
             return this;
         }

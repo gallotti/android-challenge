@@ -3,16 +3,16 @@ package br.com.gallotti.desafioandroid.bean;
 import java.io.Serializable;
 
 @SuppressWarnings("serial") 
-public class Comentario implements Serializable{
+public class Comments implements Serializable{
 
-	private String nomeAutor;
+	private String nameAuthor;
 	private String msg;
 	
 	public String getNomeAutor() {
-		return nomeAutor;
+		return nameAuthor;
 	}
-	public void setNomeAutor(String nomeAutor) {
-		this.nomeAutor = nomeAutor;
+	public void setNomeAutor(String nameAuthor) {
+		this.nameAuthor = nameAuthor;
 	}
 	public String getMsg() {
 		return msg;
