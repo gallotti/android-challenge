@@ -10,7 +10,9 @@
       	android:layout_height="fill_parent"   
       	android:id="@+id/listView"
         android:divider="@drawable/divider"
-        android:dividerHeight="0.1dp"/>
+        android:dividerHeight="0.1dp"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"/>
 
 </LinearLayout>
    <!-- From: file:/C:/Users/bruno/StudioProjects/DesafioAndroid/desafioAndroid/src/main/res/layout/activity_main.xml -->
