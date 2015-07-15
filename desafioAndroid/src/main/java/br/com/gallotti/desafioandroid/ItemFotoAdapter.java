@@ -1,10 +1,13 @@
 package br.com.gallotti.desafioandroid;
 
+import java.util.Collection;
 import java.util.List;
 import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.media.Image;
+import android.os.Build;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -70,7 +73,7 @@ public class ItemFotoAdapter extends ArrayAdapter<Foto> {
 
 			@Override
 			public void callback(String url, ImageView iv, Bitmap bm, AjaxStatus status) {
-
+				viewHolder.progressView.setVisibility(View.GONE);
 				viewHolder.imgView.setImageBitmap(Util.getCircularBitmap(bm));
 
 			}
@@ -79,6 +82,8 @@ public class ItemFotoAdapter extends ArrayAdapter<Foto> {
 		viewHolder.foto = listFoto.get(position);
 		return convertView;
 	}
+
+
 
 	static class ViewHolderItem{
 		TextView textViewAutor;

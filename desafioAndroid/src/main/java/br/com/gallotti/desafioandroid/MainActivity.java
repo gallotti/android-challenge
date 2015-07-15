@@ -40,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
 	private RequestQueue  mRequestQueue;
 	private ItemFotoAdapter adapter;
 	private Fotos fotos;
-	int count = 1;
+
 
 	@AfterViews
 	public void inicializar(){
@@ -48,6 +48,7 @@ public class MainActivity extends ActionBarActivity {
 		getSupportActionBar().setElevation(0);
 		Intent i = getIntent();
 		fotos = (Fotos)i.getSerializableExtra(getText(R.string.key_photos).toString());
+
 
 			if (fotos!=null){
 				createListView();
@@ -77,13 +78,14 @@ public class MainActivity extends ActionBarActivity {
 		listView.setAdapter(adapter);
 	}
 
+
 	/**
 	 * Metodo responsavel por consumir o Web Service da lista recentes de fotos
 	 * Primeiro chama 10 fotos, depois x*10 
 	 */
 	private void getListFotosRecentes(){
-		count++;
-		String url = getText(R.string.url)+"?method="+getText(R.string.method_list_recent)+"&api_key="+getText(R.string.api_key)+"&extras=description%2Cowner_name%2Cviews&per_page="+count*10+"&page=1&format=json&nojsoncallback=1";
+
+		String url = getText(R.string.url)+"?method="+getText(R.string.method_list_recent)+"&api_key="+getText(R.string.api_key)+"&extras=description%2Cowner_name%2Cviews&per_page=10&page=1&format=json&nojsoncallback=1";
 
 		JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET,url,null,
 				new Response.Listener<JSONObject>() {
@@ -91,9 +93,8 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onResponse(JSONObject response) {
 				ParseJson parse = new ParseJson();
-				fotos = parse.parseFotos(response);
-
-					createListView();
+				fotos.getListFoto().addAll(parse.parseFotos(response).getListFoto());
+				adapter.notifyDataSetChanged();
 
 			}
 

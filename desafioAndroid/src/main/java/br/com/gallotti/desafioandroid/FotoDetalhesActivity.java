@@ -180,7 +180,7 @@ public class FotoDetalhesActivity extends ActionBarActivity{
 
 			@Override
 			public void onResponse(JSONObject response) {
-			
+
 					ParseJson parse = new ParseJson();
 					listaComentarios = parse.criarListComentarios(response);
 					if (listaComentarios != null) {
